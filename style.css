@@ -159,6 +159,9 @@ section.servicos .flex{
     flex-wrap: wrap;*/
     
 }
+.servicos .titulo1 span{
+    color: #00BCD5;
+}
 
 .servicos .servicos-box{
     color: #fff;
@@ -410,18 +413,21 @@ footer .line-footer p a{
     
     .servicos .servicos-box{
         
-        width: 130px;
-        height: 140px;
+        width: 104px;
+        height: 130px;
         padding: 10px;
         
         
     }
+    .servicos .titulo1{
+        font-size: 25px;
+    }
     .servicos .servicos-box i{
-        font-size: 35px;
+        font-size: 25px;
         
     }
     .servicos .servicos-box h3{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     /*Sobre*/
