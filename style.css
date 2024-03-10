@@ -22,12 +22,12 @@ body{
 
 h2.titulo1{
     color: white;
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
 }
 h2.titulo2{
     color: white;
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -107,7 +107,7 @@ section .topo .flex{
 
 .topo h1{
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
 }
 
@@ -186,7 +186,7 @@ section.servicos .flex{
 }
 
 .servicos .servicos-box h3{
-    font-size: 28px;
+    font-size: 20px;
     margin: 15px 0;
 }
 
@@ -211,7 +211,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
     margin-bottom: 30px;
 }
@@ -355,11 +355,8 @@ footer .line-footer p a{
         text-align: center;
         margin-bottom: 30px;
     }
-    h2.titulo{
-        
-        font-size: 30px;
-        
-    }
+    
+    
     .topo .flex{
         flex-direction: column-reverse;
     }
@@ -377,7 +374,7 @@ footer .line-footer p a{
     /*Topo*/
     .topo .topo-site h1 {
         
-        font-size: 30px;
+        font-size: 25px;
         padding: 20px 8%;
         margin-bottom: -40px;
         
@@ -435,7 +432,7 @@ footer .line-footer p a{
         padding: 80px 8%;
     }
     .sobre .txt-sobre h2{
-        font-size: 30px;
+        font-size: 25px;
         line-height: 30px;
         
     }
@@ -457,6 +454,7 @@ footer .line-footer p a{
     }
     section .titulo2{
         color: black;
+        font-size: 25px;
         font-weight: 50px;
     }
     section .btn-enviar input{
