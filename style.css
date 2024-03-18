@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #eedcc69c;
     height: 100vh;
 }
 
@@ -32,7 +32,7 @@ h2.titulo2{
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px #03d4f0;
+    box-shadow: 0px 0px 8px #bc966f;
     transform: scale(1.05);
 }
 
@@ -73,8 +73,8 @@ header nav ul li{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00BCD5;
-    border: 0;
+    background-color: #4f2612;
+    color: #eedcc6;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
@@ -84,7 +84,8 @@ header nav ul li{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00BCD5;
+    background-color: #4f2612;
+    color: #eedcc6;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -106,24 +107,24 @@ section .topo .flex{
 }
 
 .topo h1{
-    color: #fff;
+    color: #4f2612;
     font-size: 30px;
     line-height: 40px;
 }
 
 .topo .topo-site h1 span{
-    color: #00BCD5;
+    color: #a25d24;
 }
 
 .topo .topo-site p{
-    color: #fff;
+    color: #4f2612;
     margin: 40px 0px;
 }
 
 .img-principal{
     border-radius: 10%;
     width: 300px;
-    box-shadow: 0px 0px 15px #03d9f5fb;
+    box-shadow: 0px 0px 15px #753602e7;
 }
 
 /*.topo .img-topo img{
@@ -159,12 +160,17 @@ section.servicos .flex{
     flex-wrap: wrap;*/
     
 }
+
+.servicos .titulo1{
+    color: #4f2612;
+}
 .servicos .titulo1 span{
-    color: #00BCD5;
+    color: #a25d24;
 }
 
 .servicos .servicos-box{
-    color: #fff;
+    color: #4f2612;
+    font-weight: bold;
     padding: 40px;
     border-radius: 20px;
     /*border: 2px solid #fff;*/
@@ -182,7 +188,8 @@ section.servicos .flex{
 
 .servicos .servicos-box i{
     font-size: 60px;
-    color: #00BCD5;
+    color: #4f2612;
+    font-weight: bold;
 }
 
 .servicos .servicos-box h3{
@@ -203,44 +210,62 @@ section.sobre .flex{
 
 .imagem-2{
     border-radius: 20px;
+    box-shadow: 0px 0px 15px #753602e7;
 }
 
 .sobre .txt-sobre{
-    color: #fff;
+    color: #4f2612;
 
 }
 
 .sobre .txt-sobre h2{
     font-size: 30px;
+    color: #4f2612;
     line-height: 40px;
     margin-bottom: 30px;
 }
 .sobre .txt-sobre h2 span{
-    color: #00BCD5;
+    color: #a25d24;
     display: block;
 }
 
 .sobre .txt-sobre p{
     margin: 20px 0;
     text-align: justify;
+    color: #4f2612;
 }
+.sobre .txt-sobre ul {
+    margin-left: 30px;
+    color: #4f2612;
+}
+
 
 .btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: #00BCD5;
+    background-color: #4f2612;
+    
     font-size: 22px;
     cursor: pointer;
     margin: 0 8px;
     transition: .2s;
 }
 
+.btn-social button i{
+    color: #eedcc6;
+}
+
 /*Formulário*/
 
 section.formulario{
     padding: 80px 4%;
+    background-color: #4f2612;
+}
+
+section.formulario h2 {
+    color: #bc966f;
 }
 
 form{
@@ -252,15 +277,19 @@ form{
     gap: 10px;
     margin-top: 40px;
 }
+form input {
+    color: #fff;
+ }
+
 
 form input, form textarea{
     width: 100%;
-    background-color: #242424;
+    background-color: #bc966f;
     border: 0;
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #fff;
+    color: #a25d24;
     font-size: 18px;
 }
 
@@ -276,8 +305,8 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: #00BCD5;
-    color: black;
+    background-color: #bc966f;
+    color: #722c08;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
@@ -302,16 +331,16 @@ footer .line-footer{
 }
 
 .borda{
-    border-top: 2px solid #00BCD5;
+    border-top: 2px solid #4f2612;
 }
 
 footer .line-footer p i{
-    color: #00BCD5;
+    color: #4f2612;
     font-size: 22px;
 }
 
 footer .line-footer p a{
-    color: #fff;
+    color: #4f2612;
     text-decoration: none;
     padding: 5px;
 }
@@ -393,9 +422,11 @@ footer .line-footer p a{
         padding: 20px 8%;
         margin-bottom: 50px;
         
+        
     }
     .btn-contato2 button{
-        color: black;
+        background-color: #4f2612;
+        color: #eedcc6;
     }
     
     .img-topo img{
@@ -442,24 +473,24 @@ footer .line-footer p a{
     .sobre .img-sobre .imagem-2{
         border-radius: 10%;
         width: 300px;
-        box-shadow: 0px 0px 15px #03d9f5fb;
+        box-shadow: 0px 0px 15px #753602e7;
     }
     /*Formulário*/
     section.formulario{
-        background-color: #00BCD5;
+        background-color: #4f2612;
         height: 550px;
     }
     section.formulario .interface{
         margin-top: -70px;
     }
     section .titulo2{
-        color: black;
+        color: #bc966f;
         font-size: 25px;
         font-weight: 50px;
     }
     section .btn-enviar input{
-        background-color: #242424;
-        color: #00BCD5;
+        background-color: #bc966f;
+        color: #4f2612;
     }
     .btn-social button{
         color: black;
@@ -478,3 +509,6 @@ footer .line-footer p a{
         }
 
 }
+
+
+
