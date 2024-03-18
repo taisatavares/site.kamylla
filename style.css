@@ -265,7 +265,7 @@ section.formulario{
 }
 
 section.formulario h2 {
-    color: #bc966f;
+    color: #eedcc6;
 }
 
 form{
@@ -284,7 +284,7 @@ form input {
 
 form input, form textarea{
     width: 100%;
-    background-color: #bc966f;
+    background-color: #eedcc6;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -489,7 +489,7 @@ footer .line-footer p a{
         font-weight: 50px;
     }
     section .btn-enviar input{
-        background-color: #bc966f;
+        background-color: #eedcc6;
         color: #4f2612;
     }
     .btn-social button{
