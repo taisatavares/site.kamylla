@@ -9,13 +9,15 @@
 }
 
 body{
-    background-color: /*#eedcc69c*/ #4f2612;
-    height: 100vh;
+    background-color: /*#eedcc69c #4f2612 */ black;
+    
 }
 
 #drawer {
     .nome {
         display: none;
+        
+        
     }
     .overlay {
         display: flex;
@@ -28,7 +30,12 @@ body{
         transition: all .5s ease-in-out;
     }
     .cabecalho{
-        background-color: #eedcc6;
+        background-color: /*#eedcc6*/ #fff;
+        /*position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;*/
         height: 60px;
         display: flex;
         flex-direction: row;
@@ -38,11 +45,14 @@ body{
             display: flex;
             justify-content: center;
             padding: 20px;
+            
+
+            .btn-close {
+                /*display: none;*/
+            }
         }
 
-        .btn-close {
-            /*display: none;*/
-        }
+        
 
         >nav {
             flex: 1;
@@ -63,7 +73,7 @@ body{
                     align-items: center;
                     height: 42px;
                     text-decoration: none;
-                    color: #4f2612;
+                    color: /*#4f2612*/ #3b6b46;
                     font-weight: bold;
                 }
             }
@@ -86,6 +96,7 @@ body{
 
 .flex{
     display: flex;
+    
 }
 
 .interface{
@@ -157,8 +168,8 @@ header nav ul li{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #eedcc6; /*#4f2612*/
-    color: #4f2612; /*#eedcc6*/
+    background-color: /*#eedcc6; #4f2612 rgb(255, 76, 5)*/ #3b6b46;
+    color: /*#4f2612; #eedcc6*/ #fff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -180,13 +191,14 @@ section .topo .flex{
 }
 
 .topo h1{
+    margin-top: 100px;
     color: /*#4f2612*/ #eedcc6;
     font-size: 30px;
     line-height: 40px;
 }
 
 .topo .topo-site h1 span{
-    color: /*#a25d24*/ rgb(255, 76, 5);
+    color: /*#a25d24 rgb(255, 76, 5)*/ #6A9975;
 }
 
 .topo .topo-site p{
@@ -195,9 +207,11 @@ section .topo .flex{
 }
 
 .img-principal{
-    border-radius: 10%;
-    width: 300px;
-    box-shadow: 0px 0px 15px /*#753602e7*/ #eedcc6;
+    
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+    box-shadow: 0px 0px 15px /*#753602e7 #eedcc6*/ #6A9975;
 }
 
 /*.topo .img-topo img{
@@ -218,6 +232,7 @@ section .topo .flex{
 
 section.servicos{
     padding: 40px 4%;
+    background-color: #EAE8E8;
 }
 
 section.servicos .flex{
@@ -235,14 +250,14 @@ section.servicos .flex{
 }
 
 .servicos .titulo1{
-    color: /*#4f2612*/ #eedcc6;
+    color: /*#4f2612 #eedcc6*/ black;
 }
 .servicos .titulo1 span{
-    color: /*#a25d24*/ rgb(255, 76, 5);
+    color: /*#a25d24 rgb(255, 76, 5)*/ #3b6b46;
 }
 
 .servicos .servicos-box{
-    color: /*#4f2612*/ #eedcc6;
+    color: /*#4f2612*/ /*#eedcc6 rgb(255, 76, 5)*/ #3b6b46;
     font-weight: bold;
     padding: 40px;
     border-radius: 20px;
@@ -261,7 +276,7 @@ section.servicos .flex{
 
 .servicos .servicos-box i{
     font-size: 60px;
-    color: /*#4f2612*/ #eedcc6;
+    color: /*#4f2612 #eedcc6 rgb(255, 76, 5)*/ #3b6b46;
     font-weight: bold;
 }
 
@@ -282,8 +297,12 @@ section.sobre .flex{
 }
 
 .imagem-2{
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0px 0px 15px /*#753602e7*/ #eedcc6;
+    width: 400px;
+    height: 300px;
+    margin-top: -350px;
+    
 }
 
 .sobre .txt-sobre{
@@ -298,7 +317,7 @@ section.sobre .flex{
     margin-bottom: 30px;
 }
 .sobre .txt-sobre h2 span{
-    color: /*#a25d24*/ rgb(255, 76, 5);
+    color: /*#a25d24 rgb(255, 76, 5)*/ #6A9975;
     display: block;
 }
 
@@ -318,8 +337,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 30px;
     border: none;
-    background-color: /*#4f2612*/ #eedcc6;
-    
+    background-color: /*#4f2612 #eedcc6 rgb(255, 76, 5) #6A9975*/ black;
     font-size: 22px;
     cursor: pointer;
     margin: 0 8px;
@@ -327,18 +345,21 @@ section.sobre .flex{
 }
 
 .btn-social button i{
-    color: /*#eedcc6*/ #4f2612;
+    color: /*#eedcc6 #4f2612*/ #fff;
+    
+    
+    
 }
 
 /*Formulário*/
 
 section.formulario{
     padding: 80px 4%;
-    background-color: /*#4f2612*/ #eedcc6;
+    background-color: /*#4f2612 #eedcc6 #6A9975*/ #EAE8E8;
 }
 
 section.formulario h2 {
-    color: /*#eedcc6*/ #4f2612;
+    color: /*#eedcc6 #4f2612*/ #3b6b46;
 }
 
 form{
@@ -357,7 +378,7 @@ form input {
 
 form input, form textarea{
     width: 100%;
-    background-color: #4f2612ec;
+    background-color: /*#eedcc6*/ #fff;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -378,7 +399,7 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: /*#bc966f*/ #4f2612;
+    background-color: /*#bc966f #3b6b46*/ black;
     color: /*#722c08*/ #eedcc6;
     font-weight: 700;
     cursor: pointer;
@@ -452,17 +473,20 @@ footer .line-footer p a{
 
     #drawer {
         
+        
         .nome {
             display: flex;
             margin: 20px;
             font-family: 'Alex Brush';
             font-size: 20px;
             font-weight: bold;
-            color: #4f2612;
+            color: #3b6b46;
         }
         
         
         .cabecalho{
+
+            
             >nav {
                 flex: 1;
                 
@@ -473,17 +497,19 @@ footer .line-footer p a{
             } 
     
             .btn-close {
+                
                 position: absolute;
                 right: 20px;
                 width: 30px;
                 height: 30px;
-                background-color: #eedcc6;
+                background-color: /*#eedcc6*/ #fff;
                 border: none;
                 
                 
             }
             .btn-close img {
                 width: 30px;
+                
             }
         }
     }            
@@ -496,7 +522,7 @@ footer .line-footer p a{
 
     .flex .img-topo{
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: -60px;
     }
     
     
@@ -539,13 +565,14 @@ footer .line-footer p a{
         
     }
     .btn-contato2 button{
-        background-color: #eedcc6;
-        color: #4f2612;
+        background-color: /*#eedcc6*/ #3b6b46;
+        color: /*#4f2612*/ #eedcc6;
     }
     
     .img-topo img{
         
         text-align: center;
+        
         
     }
     /*Serviços*/
@@ -585,13 +612,14 @@ footer .line-footer p a{
         color: black;
     }
     .sobre .img-sobre .imagem-2{
-        border-radius: 10%;
-        width: 300px;
-        box-shadow: 0px 0px 15px /*#753602e7*/ #eedcc6;
+        border-radius: none;
+        width: 400px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 10px /*#753602e7*/ #eedcc6;
     }
     /*Formulário*/
     section.formulario{
-        background-color: /*#4f2612*/ #eedcc6;
+        background-color: /*#4f2612 #eedcc6*/ #EAE8E8;
         height: 550px;
     }
     section.formulario .interface{
@@ -603,8 +631,8 @@ footer .line-footer p a{
         font-weight: 50px;
     }
     section .btn-enviar input{
-        background-color: /*#eedcc6*/ #4f2612;
-        color: /*#4f2612*/ #eedcc6;
+        background-color: /*#eedcc6 #4f2612*/  #3b6b46;
+        color: /*#4f2612 #eedcc6*/  #eedcc6;
     }
     .btn-social button{
         color: black;
