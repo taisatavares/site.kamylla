@@ -14,9 +14,29 @@ body{
 }
 
 #drawer {
+    
+    .nome-logo {
+        margin: 0px;
+        display: flex;
+        gap: 10px;
+    }
     .nome {
-        display: none;
+        padding: 0;
         
+        color: rgb(92, 90, 90);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .simbol-cont {
+        width: 50px;
+        height: 40px;
+        margin-top: -5px;
+        
+        
+    }
+    #btn-mobile {
+        
+        display: none;
         
     }
     .overlay {
@@ -29,70 +49,61 @@ body{
         z-index: -2;
         transition: all .5s ease-in-out;
     }
-    .cabecalho{
-        background-color: /*#eedcc6*/ #EAE8E8;
-        /*position: fixed;
+     /*.cabecalho{
+        background-color: #eedcc6 #EAE8E8;
+        position: fixed;
         width: 100%;
         top: 0;
         left: 0;
-        right: 0;*/
+        right: 0;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;*/
+
+    > header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
         height: 60px;
         display: flex;
         flex-direction: row;
         margin-bottom: 40px;
-
-        > header {
-            display: flex;
-            justify-content: center;
-            padding: 20px;
+        background-color: /*#eedcc6*/ #EAE8E8;
             
-
-            .btn-close {
-                /*display: none;*/
-            }
-        }
-
-        
-
-        >nav {
-            flex: 1;
             
-
-            >ul {
+            > nav ul {
                 padding: 0;
-                margin: 0;
+                /*margin: 10px;*/
                 list-style: none;
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
                 gap: 60px;
-                margin-top: 10px;
+                margin-top: 0px;
 
                 >li a {
                     display: flex;
-                    align-items: center;
+                    align-items: right;
                     height: 42px;
                     text-decoration: none;
                     color: /*#4f2612 #3b6b46 #c44709*/ rgb(92, 90, 90);
                     font-weight: bold;
                 }
             }
-        }
-    }
-    &.opened {
-        .overlay {
-            z-index: 999;
-            background-color: var(--black50-color);
-            backdrop-filter: blur(5px);
-        }
+            
+        
+    
+        
 
-        .body {
-            z-index: 1000;
-            right: 0;
-        }
+        
+            
+
+            
     }
 
-}    
+}   
+
+
 
 .flex{
     display: flex;
@@ -476,49 +487,73 @@ footer .line-footer p a{
     
 
     #drawer {
+        .nome-logo {
+            margin: 0;
+            display: flex;
+            
+        }
+        > header #menu {
+            /*display: none;*/
+            position: absolute;
+            width: 50%;
+            top: 70px;
+            right: 0px;
+            display: none;
+            background: #e7e7e7; 
+            height: 50vh;
+            margin-top: -10px;  
         
+            z-index: 1000; 
+            
+                
+        }        
+        #btn-mobile {
+            display: flex;
+            position: absolute;
+            right: 20px;
+            width: 30px;
+            height: 30px;
+            background-color: /*#eedcc6*/ #EAE8E8;
+            border: none; 
+            
+            
+        }
+        #btn-mobile img {
+            width: 30px;
+            
+        }
+        .simbol-cont {
+            width: 50px;
+            height: 40px;
+            margin-top: -5px;
+            margin-left: 5px;
+            
+        }
         
         .nome {
             display: flex;
-            margin: 20px;
+            margin-left: -10px;
             font-family: "Pompins" sans-serif;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
             color: /*#3b6b46*/ #2f3641;
         }
         
         
-        .cabecalho{
-
-            
-            >nav {
-                flex: 1;
-                
-    
-                >ul {
-                    display: none;
-                }
-            } 
-    
-            .btn-close {
-                
-                position: absolute;
-                right: 20px;
-                width: 30px;
-                height: 30px;
-                background-color: /*#eedcc6*/ #EAE8E8;
-                border: none;
-                
-                
-            }
-            .btn-close img {
-                width: 30px;
-                
-            }
-        }
+        
     }            
     
-                
+    #nav.active #menu {
+        display: block;
+        flex-direction: column;
+        
+    }        
+    
+    #menu a {
+        padding: 2rem 0;
+        margin: 10 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
 
     .flex{
         flex-direction: column;
@@ -535,7 +570,7 @@ footer .line-footer p a{
     }
 
     /*Cabeçalho*/
-    .logo, .desktop, .btn-contato{
+    .logo, .desktop, .btn-contato {
         display: none;
     }
 

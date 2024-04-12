@@ -23,25 +23,33 @@
 <body>
     <div id="drawer">
         <div class="overlay" data-drawer="toggle"></div>
-        <div class="cabecalho">
-            <div class="nome-logo">
-                <p class="nome">Tesouro Fiscal</p>
+        <!--<div class="cabecalho">*/!-->
+            
+            
+            
+            <header id="header">
+                <div class="nome-logo">
                 
-            </div>
-            <header>
-                    <button type="button" class="btn-close" data-drawer="close">
-                        <img src="img/list.svg" alt="Icon close">
-                    </button>
-        
+                    <p class="nome">Tesouro Fiscal</p>
+                    <img class="simbol-cont" src="img/simbolo-contabil.png" alt="">
+                    
+                </div>
+                
+                    
+                    <nav id="nav">
+                        <button type="button" id="btn-mobile" data-drawer="close">
+                            <img src="img/list.svg" alt="Icon mobile">
+                        </button>
+                        <ul id="menu">
+                        <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="https://wa.me/5581998392468">Contato</a></li>
+                        </ul>
+                    </nav>
             </header>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">contato</a></li>
-                </ul>
-            </nav>
-        </div>
+            
+            
+        <!--</div>/!-->
     </div>
     <main>
         <section class="topo">
@@ -136,7 +144,7 @@
                     <input type="email" name="email" id="" class="texto" placeholder="Seu e-mail:" required>
                     <textarea name="message" id="" class="texto" placeholder="Sua mensagem" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-                    <input type="hidden" name="accessKey" value="57fd01c5-a3f4-49b9-84fb-87b739e9ced6">
+                    <input type="hidden" name="accessKey" value="a4379ac9-94f3-4a38-a1db-f5a3c18c4e5a">
                     <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigada.html">
                     
                 </form> 
@@ -171,5 +179,6 @@
             </div>
         </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
