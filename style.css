@@ -304,9 +304,13 @@ section.servicos .flex{
 
 /*Modal*/
 
+button h3{
+    color: black;
+}
+
 .btn-servicos {
     border: none;
-    background-color: rgba(204, 201, 201, 0.575);
+    background-color: /*rgba(204, 201, 201, 0.575);*/ #EAE8E8;
     border-radius: 10%;
     cursor: pointer;
     
@@ -325,11 +329,15 @@ section.servicos .flex{
 
 
 
+
+
 .dialog .close {
     font-weight: bold;
 }
 
-
+.dialog .close p {
+    color: black;
+}
 
 /*Estilo sobre*/
 
@@ -699,7 +707,7 @@ footer .line-footer p a{
     /*Modal*/
 
     .dialog {
-        width: 350px;
+        width: 250px;
         height: 190px;
         text-align: start;
     }
