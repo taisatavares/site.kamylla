@@ -164,6 +164,27 @@ header nav ul li{
     padding: 0 40px;
 }
 
+#menu .opcoes{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    margin-top: -18px; 
+    height: 450px; 
+    background-color: #e7e7e7;
+    text-align: start;
+    width: 190px;
+}
+
+#menu .opcoes li{
+    display: block;
+    flex-direction: column;
+    margin: 15px;
+    color: #4d4949d0;;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
 .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
@@ -250,6 +271,7 @@ section .topo .flex{
 section.servicos{
     padding: 40px 4%;
     background-color: #EAE8E8 /*#F2DFCA*/;
+    height: 950px;
 }
 
 section.servicos .flex{
@@ -258,6 +280,7 @@ section.servicos .flex{
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
+    margin-left: -50px;
     
     /*display: block;
     justify-content: center;
@@ -280,6 +303,7 @@ section.servicos .flex{
     border-radius: 20px;
     /*border: 2px solid #fff;*/
     margin-top: 45px;
+    margin-bottom: 30px;
     width: 300px;
     height: 300px;
     transition: .2s;
@@ -302,42 +326,12 @@ section.servicos .flex{
     margin: 15px 0;
 }
 
-/*Modal*/
-
-button h3{
-    color: black;
+.servicos .servicos-box p{
+    text-align: justify;
+    font-size: 13px;
+    color: #7d7d7d;
 }
 
-.btn-servicos {
-    border: none;
-    background-color: /*rgba(204, 201, 201, 0.575);*/ #EAE8E8;
-    border-radius: 10%;
-    cursor: pointer;
-    
-}
-
-
-
-
-
-
-.dialog {
-    border: none;
-    border-radius: .5rem;
-    
-}
-
-
-
-
-
-.dialog .close {
-    font-weight: bold;
-}
-
-.dialog .close p {
-    color: black;
-}
 
 /*Estilo sobre*/
 
@@ -535,18 +529,32 @@ footer .line-footer p a{
         > header #menu {
             /*display: none;*/
             position: absolute;
-            width: 50%;
+            width: 70%;
             top: 70px;
             right: 0px;
             display: none;
             background: #e7e7e7; 
-            height: 50vh;
+            height: 110vh;
             margin-top: -10px;  
         
             z-index: 1000; 
             
                 
-        }        
+        }  
+        
+        #menu .opcoes{
+            display: none;
+            flex-direction: column;
+            
+            
+        }
+
+        #menu .opcoes li{
+            margin: 15px;
+            color: #4d4949d0;;
+            font-weight: bold;
+        }
+
         #btn-mobile {
             display: flex;
             position: absolute;
@@ -664,6 +672,8 @@ footer .line-footer p a{
     /*Serviços*/
     section.servicos{
         padding: 40px 8%;
+        height: 950px;
+        
     }
     
     .servicos .servicos-box{
@@ -685,6 +695,12 @@ footer .line-footer p a{
         font-size: 12px;
     }
 
+    .servicos .servicos-box p{
+        font-size: 10px;
+        width: 135px;
+        height: 150px;
+    }
+
     /*Sobre*/
     section.sobre{
         padding: 80px 8%;
@@ -699,20 +715,13 @@ footer .line-footer p a{
     }
     .sobre .img-sobre .imagem-2{
         margin-top: 30px;
-        /*border-radius: 10%;*/
-        width: 100vw;
+        border-radius: 10%;
+        width: 310px;
+        height: 410px;
         box-shadow: 0px 0px 10px /*#753602e7*/ #eedcc6;
     }
 
-    /*Modal*/
 
-    .dialog {
-        width: 250px;
-        height: 190px;
-        text-align: start;
-    }
-
-    
 
     /*Formulário*/
     section.formulario{

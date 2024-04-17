@@ -7,25 +7,13 @@ function toggleMenu(){
 
 btnMobile.addEventListener('click', toggleMenu);
 
-const button = document.querySelector('.btn-servicos');
+var btn = document.querySelector('#show-hide');
+var opcoes = document.querySelector('.opcoes');
 
-const modal = document.querySelector('.dialog');
-
-const buttonClose = document.querySelector('.close');
-
-
-console.log(button);
-
-/*button.forEach(btn => {
-    btn.onclick = function() {
-        alert(btn.value)
+btn.addEventListener('click', function(){
+    if(opcoes.style.display === 'block') {
+        opcoes.style.display = 'none';
+    }else {
+        opcoes.style.display = 'block';
     }
-})*/
-
-button.onclick = function () {
-    modal.show()
-}
-
-buttonClose.onclick = function () {
-    modal.close()
-}
+})
