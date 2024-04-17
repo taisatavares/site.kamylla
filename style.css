@@ -271,7 +271,7 @@ section .topo .flex{
 section.servicos{
     padding: 40px 4%;
     background-color: #EAE8E8 /*#F2DFCA*/;
-    height: 950px;
+    height: 1050px;
 }
 
 section.servicos .flex{
@@ -305,9 +305,9 @@ section.servicos .flex{
     margin-top: 45px;
     margin-bottom: 30px;
     width: 300px;
-    height: 300px;
+    height: 350px;
     transition: .2s;
-    
+    border: 2px solid /*#4f2612*/ #97959579;
 }
 
 .servicos .servicos-box:hover{
@@ -329,7 +329,7 @@ section.servicos .flex{
 .servicos .servicos-box p{
     text-align: justify;
     font-size: 13px;
-    color: #7d7d7d;
+    color: #807d7de3;
 }
 
 
@@ -529,7 +529,7 @@ footer .line-footer p a{
         > header #menu {
             /*display: none;*/
             position: absolute;
-            width: 70%;
+            width: 60%;
             top: 70px;
             right: 0px;
             display: none;
@@ -672,21 +672,19 @@ footer .line-footer p a{
     /*Serviços*/
     section.servicos{
         padding: 40px 8%;
-        height: 950px;
+        height: 1050px;
         
     }
 
-    section.servicos .flex{
-        flex-direction: column;
-    }
     
     
     .servicos .servicos-box{
         
-        width: 104px;
-        height: 130px;
+        width: 155px;
+        height: 220px;
         padding: 10px;
-        
+        margin-right: -40px;
+        margin-bottom: -30px;
         
     }
     .servicos .titulo1{
@@ -701,9 +699,10 @@ footer .line-footer p a{
     }
 
     .servicos .servicos-box p{
-        font-size: 10px;
+        font-size: 9px;
         width: 135px;
         height: 150px;
+        
     }
 
     /*Sobre*/
