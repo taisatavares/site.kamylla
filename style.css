@@ -675,6 +675,11 @@ footer .line-footer p a{
         height: 950px;
         
     }
+
+    section.servicos .flex{
+        flex-direction: column;
+    }
+    
     
     .servicos .servicos-box{
         
