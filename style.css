@@ -629,19 +629,20 @@ footer .line-footer p a{
 
     /*Topo*/
     .topo h1{
-        margin-top: 80px;
+        margin-top: 10px;
     }
     .topo .topo-site h1 {
         
         font-size: 25px;
         padding: 20px 8%;
-        margin-bottom: -40px;
+        margin-bottom: -70px;
         
     }
     .topo .topo-site p{
         
         color: /*#4f2612 #eedcc6*/ #fff;
         margin-top: 30px ;
+        margin-bottom: -20px;
         padding: 40px;
         text-align: justify;
         
@@ -654,7 +655,7 @@ footer .line-footer p a{
 
     .btn-contato2  {
         padding: 20px 8%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         
         
     }
@@ -672,7 +673,7 @@ footer .line-footer p a{
     /*Serviços*/
     section.servicos{
         padding: 40px 8%;
-        height: 1050px;
+        height: 950px;
         
     }
 
@@ -684,11 +685,13 @@ footer .line-footer p a{
         height: 250px;
         padding: 10px;
         margin-right: -40px;
-        margin-bottom: -30px;
+        margin-bottom: -70px;
         
     }
     .servicos .titulo1{
         font-size: 25px;
+        margin-top: -20px;
+        margin-bottom: -20px;
     }
     .servicos .servicos-box i{
         font-size: 25px;
@@ -712,16 +715,17 @@ footer .line-footer p a{
     .sobre .txt-sobre h2{
         font-size: 25px;
         line-height: 30px;
+        margin-top: -30px;
         
     }
     .btn-social button{
         color: black;
     }
     .sobre .img-sobre .imagem-2{
-        margin-top: 30px;
-        border-radius: 10%;
-        width: 310px;
-        height: 410px;
+        margin-top: 10px;
+        /*border-radius: 10%;*/
+        width: 400px;
+        
         box-shadow: 0px 0px 10px /*#753602e7*/ #eedcc6;
     }
 
