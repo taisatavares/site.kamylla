@@ -724,9 +724,9 @@ footer .line-footer p a{
     .sobre .img-sobre .imagem-2{
         margin-top: 10px;
         /*border-radius: 10%;*/
-        width: 450px;
+        width: 100vw;
         
-        box-shadow: 0px 0px 10px /*#753602e7*/ #eedcc6;
+        box-shadow: 0px 0px 3px /*#753602e7*/ #eedcc6;
     }
 
 
