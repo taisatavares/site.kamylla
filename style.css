@@ -526,6 +526,10 @@ footer .line-footer p a{
             display: flex;
             
         }
+
+        .nome-logo .nome {
+            font-size: 13px;
+        }
         > header #menu {
             /*display: none;*/
             position: absolute;
